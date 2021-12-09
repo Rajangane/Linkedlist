@@ -26,6 +26,23 @@ namespace Linkedlist
             }
             Console.WriteLine("{0} inserted", node.data);
         }
+
+        public void Append(T data)
+        {
+            Node<T> node = new Node<T>(data);
+            if (this.head == null)
+                this.head = node;
+            else
+            {
+                Node<T> temp = head;
+                while (temp.next != null)
+                {
+                    temp = temp.next;
+                }
+                temp.next = node;
+            }
+        }
+
         //display method
         internal void Display()
         {
