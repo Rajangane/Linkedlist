@@ -67,6 +67,15 @@ namespace Linkedlist
                 temp.next = node;
             }
         }
+
+        //Remove First Element
+        internal Node<T> RemoveFirst()
+        {
+            if (this.head == null)
+                return null;
+            this.head = this.head.next;
+            return this.head;
+        }
         //display method
         internal void Display()
         {
