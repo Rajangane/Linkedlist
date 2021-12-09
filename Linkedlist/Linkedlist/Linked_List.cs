@@ -26,7 +26,7 @@ namespace Linkedlist
             }
             Console.WriteLine("{0} inserted", node.data);
         }
-
+        //Append Method
         public void Append(T data)
         {
             Node<T> node = new Node<T>(data);
@@ -43,6 +43,30 @@ namespace Linkedlist
             }
         }
 
+        //Insert method
+        public void Insert(int pos, T data)
+        {
+            Node<T> node = new Node<T>(data);
+            if (pos < 1)
+                Console.WriteLine("Invalid Position");
+            else if (pos == 1)
+            {
+                node.next = head;
+                head = node;
+            }
+            else
+            {
+                Node<T> temp = head;
+
+                while (pos > 2)
+                {
+                    temp = temp.next;
+                    pos--;
+                }
+                node.next = temp.next;
+                temp.next = node;
+            }
+        }
         //display method
         internal void Display()
         {
