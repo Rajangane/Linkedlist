@@ -1,0 +1,15 @@
+D:\bridzlabz\linkedlist\Linkedlist\Linkedlist\bin\Debug\net6.0\Linkedlist.exe
+D:\bridzlabz\linkedlist\Linkedlist\Linkedlist\bin\Debug\net6.0\Linkedlist.deps.json
+D:\bridzlabz\linkedlist\Linkedlist\Linkedlist\bin\Debug\net6.0\Linkedlist.runtimeconfig.json
+D:\bridzlabz\linkedlist\Linkedlist\Linkedlist\bin\Debug\net6.0\Linkedlist.dll
+D:\bridzlabz\linkedlist\Linkedlist\Linkedlist\bin\Debug\net6.0\ref\Linkedlist.dll
+D:\bridzlabz\linkedlist\Linkedlist\Linkedlist\bin\Debug\net6.0\Linkedlist.pdb
+D:\bridzlabz\linkedlist\Linkedlist\Linkedlist\obj\Debug\net6.0\Linkedlist.csproj.AssemblyReference.cache
+D:\bridzlabz\linkedlist\Linkedlist\Linkedlist\obj\Debug\net6.0\Linkedlist.GeneratedMSBuildEditorConfig.editorconfig
+D:\bridzlabz\linkedlist\Linkedlist\Linkedlist\obj\Debug\net6.0\Linkedlist.AssemblyInfoInputs.cache
+D:\bridzlabz\linkedlist\Linkedlist\Linkedlist\obj\Debug\net6.0\Linkedlist.AssemblyInfo.cs
+D:\bridzlabz\linkedlist\Linkedlist\Linkedlist\obj\Debug\net6.0\Linkedlist.csproj.CoreCompileInputs.cache
+D:\bridzlabz\linkedlist\Linkedlist\Linkedlist\obj\Debug\net6.0\Linkedlist.dll
+D:\bridzlabz\linkedlist\Linkedlist\Linkedlist\obj\Debug\net6.0\ref\Linkedlist.dll
+D:\bridzlabz\linkedlist\Linkedlist\Linkedlist\obj\Debug\net6.0\Linkedlist.pdb
+D:\bridzlabz\linkedlist\Linkedlist\Linkedlist\obj\Debug\net6.0\Linkedlist.genruntimeconfig.cache
