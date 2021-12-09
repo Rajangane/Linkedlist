@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("************** Welcome To Linkedlist***************");
 using Linkedlist;
-Console.Write("Select Number:\n1)Add elements\n2)Append\n3)Insert\n4)RemoveFirstElement\n5)RemoveLastElement");
+Console.Write("Select Number:\n1)Add elements\n2)Append\n3)Insert\n4)RemoveFirstElement\n5)RemoveLastElement\n6)Search");
 int option = Convert.ToInt32(Console.ReadLine());
 Linked_List<int> list = new Linked_List<int>();//creating list
 switch (option)
@@ -41,6 +41,12 @@ switch (option)
         list.RemoveLast();
         Console.WriteLine("\nLast Element Removed\n");
         list.Display();
+        break;
+    case 6:
+        list.Add(56);
+        list.Add(30);
+        list.Add(70);
+        Console.WriteLine(list.Search(30));
         break;
 
     default:

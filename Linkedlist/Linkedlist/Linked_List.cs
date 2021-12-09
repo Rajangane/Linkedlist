@@ -91,6 +91,20 @@ namespace Linkedlist
             newNode.next = null;
             return head;
         }
+        //Search Method
+        public bool Search(int value)
+        {
+            Node<T> temp = head;
+            while (temp != null)
+            {
+                if (temp.data.Equals(value))
+                {
+                    return true;
+                }
+                temp = temp.next;
+            }
+            return false;
+        }
         //display method
         internal void Display()
         {
