@@ -76,6 +76,21 @@ namespace Linkedlist
             this.head = this.head.next;
             return this.head;
         }
+        //Remove Last Element
+        internal Node<T> RemoveLast()
+        {
+            if (head == null)
+                return null;
+            if (head.next == null)
+                return null;
+            Node<T> newNode = head;
+            while (newNode.next.next != null)
+            {
+                newNode = newNode.next;
+            }
+            newNode.next = null;
+            return head;
+        }
         //display method
         internal void Display()
         {
