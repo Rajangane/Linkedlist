@@ -91,6 +91,26 @@ namespace Linkedlist
             newNode.next = null;
             return head;
         }
+        //Delete Method
+        public void Delete(T data)
+        {
+            Node<T> temp = head, previous = null;
+            if (temp != null && temp.data.Equals(data))
+            {
+                head = temp.next;
+                return;
+            }
+            while (temp != null && !temp.data.Equals(data))
+            {
+                previous = temp;
+                temp = temp.next;
+            }
+            if (temp == null)
+                return;
+            previous.next = temp.next;
+        }
+
+
         //Search Method
         public bool Search(int value)
         {
@@ -104,6 +124,18 @@ namespace Linkedlist
                 temp = temp.next;
             }
             return false;
+        }
+        //Size method
+        public int Size()
+        {
+            int s = 0;
+            Node<T> temp = head;
+            while (temp != null)
+            {
+                s++;
+                temp = temp.next;
+            }
+            return s;
         }
         //display method
         internal void Display()

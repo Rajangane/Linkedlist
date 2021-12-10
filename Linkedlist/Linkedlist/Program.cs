@@ -1,9 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("************** Welcome To Linkedlist***************");
 using Linkedlist;
-Console.Write("Select Number:\n1)Add elements\n2)Append\n3)Insert\n4)RemoveFirstElement\n5)RemoveLastElement\n6)Search\n7)Insert40");
+Console.Write("Select Number:\n1)Add elements\n2)Append\n3)Insert\n4)RemoveFirstElement\n5)RemoveLastElement\n6)Search\n7)Insert40\n8)Delete40");
 int option = Convert.ToInt32(Console.ReadLine());
 Linked_List<int> list = new Linked_List<int>();//creating list
+
 switch (option)
 {
     case 1:
@@ -46,6 +47,7 @@ switch (option)
         list.Add(56);
         list.Add(30);
         list.Add(70);
+        Console.WriteLine("Size of linked list is : " + list.Size());
         Console.WriteLine(list.Search(30));
         break;
     case 7:
@@ -53,7 +55,15 @@ switch (option)
         list.Add(30);
         list.Add(70);
         list.Insert(3, 40);//in the position of 3 insert 40
-        Console.WriteLine("Linked list elements after inserting :");
+        list.Display();
+        break;
+    case 8:
+        list.Add(56);
+        list.Add(30);
+        list.Add(40);
+        list.Add(70);
+        list.Delete(40);
+        Console.WriteLine("Deleting the element :");
         list.Display();
         break;
 
